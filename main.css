@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+::-webkit-scrollbar-track {
+  background: #8c8c8c;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e2e2e;
+  border-radius: 20px;
+}
+
+header li {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+#esp {
+  background-color: #075c12;
+  color: #ffffff;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#econ {
+  background-color: #196948;
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#entr {
+  background-color: #2b0303;
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#tecn {
+  background-color: #020324;
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+header li a {
+  background-color: #074e2e;
+  color: #e2e2e2;
+  padding: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.articles article img {
+  /* height: 180px; */
+  width: 100%;
+}
+
+.articles article {
+  width: 30%;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 3em;
+  background-color: #074e2e;
+  color: #e2e2e2;
+  padding: 16px 0;
+}
+
+body {
+  background-color: #caffe7;
+}
+
+section {
+  padding: 16px 0;
+}
+
+section h2,
+.articles article {
+  margin: 16px 0;
+}
+
+.articles article h3 {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.articles article a {
+  background-color: #009432;
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.articles article a:hover {
+  text-decoration: underline;
+}
+
+/* h3 {
+  background-color: #fff;
+  display: inline-block;
+  padding: 5px;
+} */
+
+.articles article a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.articles article p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.articles article h3 {
+  font-size: 25px;
+}
+
+section h2 {
+  font-size: 33px;
+}
+
+#economy {
+  background-color: #a9f9c4;
+}
+
+#economy .articles article a {
+  background-color: #033d17;
+}
+
+#entret {
+  background-color: #ffcece;
+}
+
+#entret .articles article a {
+  background-color: #5c1818;
+}
+
+#tec {
+  background-color: #8cc3ff;
+}
+
+#tec .articles article a {
+  background-color: #03274d;
+}
+
+#botao {
+  margin-bottom: -60px;
+  width: 200px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
